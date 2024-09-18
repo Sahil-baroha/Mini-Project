@@ -1,0 +1,227 @@
+@font-face {
+    font-family: General Sans;
+    src: url("/101_All_Downloads/GeneralSans-Medium.otf");
+    src: url("/101_All_Downloads/GeneralSans-Regular.otf");
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans Regular";
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  .bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+  .bounding .bonding-elem{
+    transform: translateY(100%);
+  }
+  #main {
+    background-color: black;
+    width: 100%;
+    height: auto;
+  }
+  #home {
+    padding-top: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-bottom: 30px;
+  }
+  #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    padding: 20px 40px;
+  }
+  #part2{
+    display: flex;
+    align-items: center;
+  }
+  #part2 h4{
+    font-size: 22px;
+    font-weight: 10;
+  }
+  .btn{
+    opacity: 0;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 18px;
+    cursor: pointer ;
+
+  }
+  #nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #heading {
+    margin-top: 90px;
+  }
+  #heading h1 {
+    font-family: "General Sans Regular";
+    margin-left: 40px;
+    line-height: 0.85;
+    font-size: 10vw;
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-weight: 900;
+  }
+  #heading #desi {
+    margin-left: 205px;
+  }
+  #blockText {
+    width: fit-content;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items:end;
+    position: relative;
+    left: -3.8vw;
+    /* background-color: red; */
+  }
+  #blockText h5{
+    font-family: "General Sans Regular";
+    margin-top: 15px;
+    font-size: 1vw;
+    text-align: right !important;
+    /* background-color: red; */
+  }
+  #secondary_head {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    padding-right: 45px;
+    /* background-color: red; */
+  }
+  #secondary_head h5 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: 10px;
+  }
+  
+  #home-footer {
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 3%;
+    padding: 0 2.7vw;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    top: -15.1px;
+  }
+  
+  #home-footer a {
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    color: white;
+    text-decoration: none;
+  }
+  #home-footer .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 27px;
+  }
+  #next-btn {
+    display: flex;
+    gap: 5px;
+  }
+  .circle i {
+    background-color: white;
+    font-size: 22px;
+    font-weight: 1;
+    color: black;
+    border-radius: 50%;
+  }
+#log-btn{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  margin: 0 12px;
+  border-radius: 7px;
+  padding: 4px 9px;
+  font-weight: 700; 
+}
+
+/* Landing-about css   */
+
+#landing-about{
+  padding-top: 150px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding-bottom: 100px;
+}
+#vision-head{
+  color: rgb(255, 255, 255,.6);
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+#our-vision{
+  padding-left: 50px;
+  margin-bottom: 100px;
+  padding-right: 60px;
+}
+#vision{
+  font-size:1.7vw;
+  padding: 15px 60px 30px 30px;
+}
+#cap-head{
+  color: rgb(255, 255, 255,.6);
+  font-size: 4.5vw;
+  padding-left: 50px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.val h4,.val2 h4{
+  font-size:2.2vw;
+  text-transform: uppercase;
+  color: white;opacity: .6;
+  font-weight: 10;
+  /* line-height: 2.2; */
+}
+.val{ 
+  position: relative;
+  left: 2.4vw;
+}
+.core-para{
+  font-size:1.8vw;
+  padding-left: 6.5vw;
+}
+.val-all{
+  padding:30px 20px 30px 50px;
+}
+#get-btn{
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  margin: 0 12px;
+  border-radius: 9px;
+  padding: 4px 9px;
+  font-weight: 700; 
+  position: relative;
+  left: 68vw;
+}
+#get-container{
+    margin: 10px 10px;
+    margin-bottom: 20px;
+}

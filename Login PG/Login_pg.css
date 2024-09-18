@@ -1,0 +1,177 @@
+@font-face {
+  font-family: General Sans;
+  src: url("/101_All_Downloads/GeneralSans-Medium.otf");
+  src: url("/101_All_Downloads/GeneralSans-Regular.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans Regular";
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  /* background-color: black; */
+  background-color: rgb(9, 9, 9, 0.6);
+}
+#main {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/101_All_Downloads/WhatsApp\ Image\ 2024-08-21\ at\ 16.49.11_b405bcd0.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(50px);
+}
+#log-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 75%;
+  /* border: 2px solid rgb(255, 255, 255); */
+  border-radius: 12px;
+}
+ 
+
+#log-sec {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 45%;
+}
+
+/* login section CSS */
+
+#log-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 80%;
+  padding: 8% 0 0 10%;
+  border: 2px solid white;
+}
+#log-head h1 {
+    font-weight: 700;
+  position: relative;
+  font-size: 3.2vw;
+  top: -60px;
+  opacity: 0.7;
+}
+/* #log-head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+.dropright {
+  position: relative;
+  top: -50px;
+  font-size: 15px;
+}
+.dropright select{
+  font-weight: 700;
+  width: 100px;
+  height: 28px;
+  background-color: rgb(197, 197, 197);
+}
+#log-info {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -40px;
+}
+.info1,
+.info2 label {
+    /* color: red; */
+    margin-top: 20px;
+    border: none;
+}
+#pass,
+#user.input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 82%;
+    /* border-radius:7px ; */
+    padding: 4px 12px;
+}
+#forget {
+  position: relative;
+  top: -28px;
+  right: -150px;
+}
+.btn-down {
+    background-color: rgb(241, 162, 26);
+    font-weight: 700;
+    width: 135px;
+    border-radius: 17px;
+    margin: 0 7px;
+}
+
+/* Welcome section CSS */
+
+#welcome-sec {
+  background-image: url(/101_All_Downloads/Characteristics-of-Society.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 55%;
+  backdrop-filter: blur(100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: center; */
+  padding-left:5%;
+  padding-bottom: 5%;
+}
+#welcome-sec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 101%;
+  height: 100%;
+  background: inherit; /* To inherit the background image */
+  filter: blur(7px); /* Blurs the background */
+  z-index: -1;
+}
+#pro-img{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  background-image: url(/101_All_Downloads/ResidentLink_profile.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -14%;
+  left: 27.5%;
+}
+#wel-cont h2{
+  font-weight: 700;
+  color: rgb(87, 0, 87);
+}
+#wel-desc h2{
+  font-weight: 700;
+  display: inline;
+}

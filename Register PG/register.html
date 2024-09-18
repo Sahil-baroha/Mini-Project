@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>register</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+ 
+<body>
+  <h1 id="h1">Create Account</h1>
+  <hr />
+  <form id="container">
+    <div class="inputs">
+      <div class="right-section">
+        <div class="input-items">
+          <label for="exampleFormControlSelect1">Register as:</label>
+          <select class="form1" id="Register-as">
+            <option>Adminstrator</option>
+            <option>Resident</option>
+          </select>
+        </div>
+        <div class="input-items">
+          <label for="username">Username</label>
+          <input type="text" id="username-id" />
+        </div>
+        <div class="input-items">
+
+          <label for="email">Email</label>
+          <input type="email" id="email-id" />
+        </div>
+        <div class="input-items">
+          <label for="phone1">Phone Number</label>
+          <input type="tel" id="phoneNumber1-id" />
+        </div>
+      </div>
+
+      <div class="left-section">
+        <div class="input-items">
+          <label for="phone2">Secondary Phone Number</label>
+          <input type="number" id="SecondaryPhoneNumber-id" />
+        </div>
+        <div class="input-items">
+          <label for="setPassword">Set password</label>
+          <input type="password" id="password-id" />
+        </div>
+        <div class="input-items">
+          <label for="setPassword">Confirm password</label>
+          <input type="password" id="confirmPassword-id" />
+        </div>
+
+      </div>
+    </div>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+
+  <script src="register.js"></script>
+</body>
+
+</html>

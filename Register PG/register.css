@@ -1,0 +1,115 @@
+@font-face {
+    font-family: General Sans;
+    src: url("GeneralSans-Medium.otf");
+    src: url("GeneralSans-Regular.otf");    
+}
+/* Style for the form container */
+body {
+    background-image: url(/101_All_Downloads/register-bg-transformed.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white; /* White background */
+    color: black; /* Black text color */
+    margin: 0;
+    font-family:"GeneralSans-Medium";
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #container {
+    background-color: white; /* White background for the form */
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 200px;
+  }
+  
+  #h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size:4.5vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    /* font-weight: bold; */
+    color: #ffffff; /* Dark gray for a softer contrast */
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ddd; /* Light gray line */
+    margin-bottom: 30px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555; /* Medium gray for labels */
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    background-color: #f9f9f9; /* Light gray background for inputs */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #333; /* Dark gray text */
+    font-size: 14px;
+  }
+  
+  input::placeholder {
+    color: #aaa; /* Light gray placeholder text */
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #333; /* Dark gray button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555; /* Slightly lighter gray on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  @media (max-width: 500px) {
+    #container {
+      padding: 30px 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    input, select, button {
+      font-size: 14px;
+    }
+  }
+  
